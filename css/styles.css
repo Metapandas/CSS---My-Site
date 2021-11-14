@@ -1,8 +1,9 @@
 div{
-  background-color: #FCECDD;
+  background-color: #E3FDFD;
 }
 
 body{
+  text-align: center;
   margin: 0;
 }
 
@@ -10,8 +11,10 @@ h1{
   margin-top: 0;
 }
 
-.topContainer{
 
+.topContainer{
+  position: relative;
+  padding-top: 100px;
 }
 
 .middleContainer{
@@ -24,4 +27,21 @@ h1{
   height: 200px;
   width:  200px;
   background-color: blue;
+}
+
+.left-cloud{
+  left: 300px;
+  bottom: 300px;
+  position: absolute;
+}
+
+.right-cloud{
+  position: absolute;
+  right: 300px;
+  top:50px;
+}
+
+.emphasize{
+  font-weight: bold;
+  text-decoration: underline;
 }
