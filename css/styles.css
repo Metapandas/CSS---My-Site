@@ -1,11 +1,12 @@
 div{
-  background-color: #E3FDFD;
+
 }
 
 body{
   text-align: center;
   margin: 0;
   font-family: 'Merriweather', serif;
+  background-color: #E3FDFD;
 }
 
 h1{
@@ -27,15 +28,11 @@ h3{
 }
 
 .middleContainer{
-  height: 200px;
-  width:  200px;
-  background-color: red;
+
 }
 
 .bottomContainer{
-  height: 200px;
-  width:  200px;
-  background-color: blue;
+
 }
 
 .left-cloud{
