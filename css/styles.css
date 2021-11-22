@@ -15,7 +15,6 @@ h1{
   font-family: 'Sacramento', cursive;
   font-size: 8rem;
   color:#66BFBF;
-  line-height: 2;
 }
 
 h2{
@@ -23,7 +22,7 @@ h2{
   font-size: 2.5rem;
   font-weight: normal;
   color:#66BFBF;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 3.5rem auto;
 }
 
 h3{
