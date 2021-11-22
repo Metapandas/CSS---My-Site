@@ -1,5 +1,6 @@
-.avatar{
-  width:25%;
+
+a{
+  color: #11999E;
 }
 
 body{
@@ -12,17 +13,22 @@ body{
 h1{
   margin: 10rem auto 0 auto;
   font-family: 'Sacramento', cursive;
-  font-size: 8rem
+  font-size: 8rem;
+  color:#66BFBF;
+  line-height: 2;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  margin: 0 auto 5.5rem auto;
+  font-weight: normal;
+  color:#66BFBF;
+  margin: 0 auto 0 auto;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 .topContainer{
