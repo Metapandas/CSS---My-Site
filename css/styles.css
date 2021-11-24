@@ -7,7 +7,7 @@ body{
   text-align: center;
   margin: 0;
   font-family: 'Merriweather', serif;
-  background-color: #E3FDFD;
+
 }
 
 h1{
@@ -22,7 +22,7 @@ h2{
   font-size: 2.5rem;
   font-weight: normal;
   color:#66BFBF;
-  margin: 0 auto 3.5rem auto;
+  margin: 0 auto 2rem auto;
 }
 
 h3{
@@ -33,6 +33,7 @@ h3{
 .topContainer{
   position: relative;
   padding-top: 100px;
+  background-color: #E3FDFD;
 }
 
 .middleContainer{
@@ -41,6 +42,10 @@ h3{
 
 .bottomContainer{
 
+}
+
+.mountain{
+  margin-top: 5rem;
 }
 
 .left-cloud{
@@ -53,6 +58,28 @@ h3{
   position: absolute;
   right: 300px;
   top:50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.hello-img{
+  width: 20%;
+}
+.code-img{
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.solver-img{
+  width: 35%;
+  float: right;
+  margin-left: 30px;
 }
 
 .emphasize{
