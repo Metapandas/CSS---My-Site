@@ -30,6 +30,16 @@ h3{
   color: #11999E;
 }
 
+hr{
+  width: 5%;
+  border-style: dotted;
+  border-width: 10px;
+  border-top: none;
+  border-color: #EAF6F6;
+  margin: 5rem auto;
+
+}
+
 .topContainer{
   position: relative;
   padding-top: 100px;
@@ -67,8 +77,13 @@ h3{
   line-height: 2;
 }
 
+.contact-me{
+  line-height: 2;
+}
+
 .hello-img{
   width: 20%;
+  margin-top: 5rem;
 }
 .code-img{
   width: 35%;
@@ -85,4 +100,31 @@ h3{
 .emphasize{
   font-weight: bold;
   text-decoration: underline;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
